@@ -37,7 +37,66 @@ li {
   padding: 0;
 }
 
+.test-container {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: rgba(37, 45, 55, 0.5);
+  width: 25.6rem;
+  height: 25.6rem;
+  padding: 2rem;
+}
+
+.card .card__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.card .card__container .card__icon-container .card__icon {
+  background-color: #252d37;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.card .card__container .card__h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.card .card__container .card__p {
+  color: #959eac;
+  font-weight: 400;
+}
+
+.card .card__container--submited {
+  display: none;
+}
+
 .card--hide {
+  display: none;
+}
+
+.my-radio-btn {
   display: none;
 }
 
