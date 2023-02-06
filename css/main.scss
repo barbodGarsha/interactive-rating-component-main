@@ -46,6 +46,73 @@ li {
 
 // Main ===============================================
 
+.test-container {
+
+}
+
+.card {
+    .card__container {
+        .card__icon {
+
+        }
+    
+        .card__h1 {
+    
+        }
+    
+        .card__p {
+    
+        }
+    
+        .card__rates {
+    
+        }
+    
+        .card__btn {
+    
+        }
+    }
+    .card__container--submited {
+        .card__design-container {
+            .card__design {
+
+            }
+        }
+
+        .card__h1 {
+    
+        }
+    
+        .card__p {
+    
+        }
+    
+        .card__p--var {
+            .card__selected-rating {
+
+            }
+        }
+        
+    } 
+}
 .card--hide {
+    display: none;
+}
+
+.my-radio-btn {
+    .my-radio-btn__option {
+        .my-radio-btn__option_p {
+
+        }
+    }
+}
+
+.btn {
+    .btn__p {
+        
+    }
+}
+
+.footer {
     display: none;
 }
