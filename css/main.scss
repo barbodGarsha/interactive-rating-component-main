@@ -123,10 +123,24 @@ li {
 }
 
 .my-radio-btn {
-    display: none;
+    display: flex;
+    justify-content: space-between;
     .my-radio-btn__option {
-        .my-radio-btn__option_p {
+        background-color: $c-dark-blue;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        border-radius: 50%;
+        width: 3.07rem;
+        height: 3.07rem;
+        .my-radio-btn__option__p {
+            color: $c-light-grey;
+            line-height: 0;
+            font-weight: 700;
+
+            margin-top: .15rem;
         }
     }
 }
