@@ -128,6 +128,7 @@ li {
     display: flex;
     justify-content: space-between;
     .my-radio-btn__option {
+        cursor: pointer;
         background-color: $c-dark-blue;
         
         display: flex;
@@ -144,6 +145,9 @@ li {
 
             margin-top: .15rem;
         }
+    }
+    .my-radio-btn__option:active {
+        background-color: $c-orange;
     }
 }
 

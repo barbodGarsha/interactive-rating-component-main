@@ -107,6 +107,7 @@ li {
 }
 
 .my-radio-btn .my-radio-btn__option {
+  cursor: pointer;
   background-color: #252d37;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,6 +128,10 @@ li {
   line-height: 0;
   font-weight: 700;
   margin-top: .15rem;
+}
+
+.my-radio-btn .my-radio-btn__option:active {
+  background-color: #fb7413;
 }
 
 .footer {
