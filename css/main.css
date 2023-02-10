@@ -90,11 +90,58 @@ li {
 }
 
 .card .card__container--submited {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .card__container--submited .card__design-container {
+  margin-bottom: 2rem;
+}
+
+.card .card__container--submited .card__h1 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.card .card__container--submited .card__p {
+  text-align: center;
+  font-size: .95rem;
+}
+
+.card .card__container--submited .card__p-container {
+  background-color: #252d37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2rem;
+  padding: .45rem 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.card .card__container--submited .card__p-container .card__p--var {
+  color: #fb7413;
+  margin-top: .1rem;
 }
 
 .card--hide {
-  display: none;
+  display: none !important;
 }
 
 .my-radio-btn {

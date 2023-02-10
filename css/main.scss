@@ -97,31 +97,51 @@ li {
     }
 
     .card__container--submited {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         .card__design-container {
             .card__design {
 
             }
+            margin-bottom: 2rem;
         }
 
         .card__h1 {
-    
+            font-size: 1.7rem;
+            margin-bottom: 1rem;
         }
     
         .card__p {
-    
+            text-align: center;
+            font-size: .95rem;
         }
     
-        .card__p--var {
-            .card__selected-rating {
+        .card__p-container {
+            background-color: $c-dark-blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2rem;
 
+            padding: .45rem 1.2rem;
+            margin-bottom: 2rem;
+            .card__p--var {
+                color: $c-orange;
+    
+                
+                
+                margin-top: .1rem;
+                .card__selected-rating {
+                }
             }
         }
         
     } 
 }
 .card--hide {
-    display: none;
+    display: none !important;
 }
 
 .my-radio-btn {
