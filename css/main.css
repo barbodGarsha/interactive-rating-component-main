@@ -107,6 +107,10 @@ li {
 }
 
 .my-radio-btn .my-radio-btn__option {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   cursor: pointer;
   background-color: #252d37;
   display: -webkit-box;
@@ -132,6 +136,41 @@ li {
 
 .my-radio-btn .my-radio-btn__option:active {
   background-color: #fb7413;
+}
+
+.btn {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  background-color: #fb7413;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1.75rem;
+  padding: .7rem;
+}
+
+.btn .btn__p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.btn:active {
+  background-color: white;
+}
+
+.btn:active .btn__p {
+  color: #fb7413;
 }
 
 .footer {
