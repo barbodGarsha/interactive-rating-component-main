@@ -176,6 +176,7 @@ li {
 }
 
 .my-radio-btn .my-radio-btn__option .my-radio-btn__option__p {
+  pointer-events: none;
   color: #959eac;
   line-height: 0;
   font-weight: 700;
@@ -184,6 +185,14 @@ li {
 
 .my-radio-btn .my-radio-btn__option:active {
   background-color: #fb7413;
+}
+
+.my-radio-btn .my-radio-btn__option--selected {
+  background-color: #7c8798;
+}
+
+.my-radio-btn .my-radio-btn__option--selected .my-radio-btn__option__p {
+  color: white;
 }
 
 .btn {
