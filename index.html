@@ -24,7 +24,7 @@
   <main class="test-container">
 
     <div class="card">
-      <div class="card__container">
+      <div class="card__container" data-card-rate>
         <div class="card__icon-container"> <img src="./images/icon-star.svg" alt="star icon" class="card__icon"> </div>
 
         <h1 class="card__h1">How did we do?</h1>
@@ -52,17 +52,17 @@
         </div>
 
         <div class="card__btn">
-          <div class="btn"> 
+          <div class="btn" data-submit-btn> 
             <p class="btn__p">Submit</p>
           </div>
         </div>
       </div>
 
-      <div class="card__container card__container--submited card--hide">
+      <div class="card__container card__container--submited card--hide" data-card-thank-you>
         <div class="card__design-container"> <img src="./images/illustration-thank-you.svg" alt="illustration thank you" class="card__design"> </div>
 
         <div class="card__p-container">
-          <p class="card__p--var">You selected <span class="card__selected-rating">4</span> out of 5</p>
+          <p class="card__p--var">You selected <span class="card__selected-rating" data-card-selected-rating>4</span> out of 5</p>
         </div>
         <h1 class="card__h1">Thank you!</h1>
 
