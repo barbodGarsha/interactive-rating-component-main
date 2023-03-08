@@ -61,6 +61,7 @@ li {
 
     width: 25.6rem;
     height: 25.6rem;
+    max-width: 100%;
     padding: 2rem;
     .card__container {
         display: flex;
@@ -200,4 +201,13 @@ li {
 
 .footer {
     display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .test-container {
+        padding: 1.25rem;
+    }
+    
 }
